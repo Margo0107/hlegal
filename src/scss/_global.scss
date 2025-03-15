@@ -1,0 +1,47 @@
+body {
+  font: 16px/1.63 "Montserrat", sans-serif;
+  // @include viewport-md {
+  // 	font-size: 10px;
+  // }
+}
+a {
+  text-decoration: none;
+  color: #24a3ff;
+  &:hover {
+    color: #f0145a;
+  }
+}
+.d-none {
+  display: none;
+}
+.d-sm-block {
+  @media (min-width: 767px) {
+    display: block;
+  }
+}
+.d-md-block {
+  @media (min-width: 1024px) {
+    display: block;
+  }
+}
+.wrapper {
+  min-height: 100vh;
+  min-width: 375px;
+  position: relative;
+  overflow: hidden;
+}
+.container {
+  max-width: 1720px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+.bg-box {
+  color: #fff;
+  background: linear-gradient(
+    228.57deg,
+    #323264 11.93%,
+    #323264 57.17%,
+    #643e72 87.46%
+  );
+}
+

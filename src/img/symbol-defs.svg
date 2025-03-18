@@ -1,9 +1,5 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<symbol id="icon-hlegal_background" viewBox="0 0 28 32">
-<path fill="#000" style="fill: var(--color1, #000)" d="M9.817 13.617h7.488c2.151 0 3.946 0.918 5.063 2.468s1.15 4.138 0.499 6.162l-0.832 2.584c-0.347 1.079-1.974 6.182-2.291 7.168h-4.085c0 0 0.062 0.055 3.475-10.553 0.301-0.936 0.473-2.456 0-3.113s-1.27-1.046-2.325-1.046h-6.121c-1.202 0-2.267 0.782-2.639 1.936l1.767-5.607z"></path>
-<path fill="#f0145a" style="fill: var(--color2, #f0145a)" d="M3.979 32h-3.994c3.399-10.673 6.837-21.333 10.255-32h3.988c-0.017 0.053-0.034 0.107-0.051 0.16-5.532 17.022-3.645 11.274-10.199 31.84z"></path>
-</symbol>
 <symbol id="icon-ultimate-card-logo" viewBox="0 0 51 32">
 <path d="M0 0h51.2v32h-51.2v-32z"></path>
 </symbol>
@@ -90,7 +86,7 @@
 <path fill="none" stroke="#fff" style="stroke: var(--color3, #fff)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.5238" d="M9.143 13.714l6.857 6.857 6.857-6.857"></path>
 </symbol>
 <symbol id="icon-facebook-Header" viewBox="0 0 31 32">
-<path fill="#fff" style="fill: var(--color3, #fff)" d="M30.72 16.094c0-8.535-6.877-15.454-15.36-15.454s-15.36 6.919-15.36 15.454c0 7.714 5.617 14.107 12.96 15.266v-10.799h-3.9v-4.467h3.9v-3.405c0-3.873 2.293-6.013 5.802-6.013 1.68 0 3.438 0.302 3.438 0.302v3.803h-1.937c-1.908 0-2.503 1.191-2.503 2.413v2.899h4.26l-0.681 4.467h-3.579v10.799c7.343-1.159 12.96-7.553 12.96-15.266z"></path>
+<path d="M30.72 16.094c0-8.535-6.877-15.454-15.36-15.454s-15.36 6.919-15.36 15.454c0 7.714 5.617 14.107 12.96 15.266v-10.799h-3.9v-4.467h3.9v-3.405c0-3.873 2.293-6.013 5.802-6.013 1.68 0 3.438 0.302 3.438 0.302v3.803h-1.937c-1.908 0-2.503 1.191-2.503 2.413v2.899h4.26l-0.681 4.467h-3.579v10.799c7.343-1.159 12.96-7.553 12.96-15.266z"></path>
 </symbol>
 <symbol id="icon-close" viewBox="0 0 32 32">
 <path fill="none" stroke="#ec6f5d" style="stroke: var(--color4, #ec6f5d)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2" d="M7 7l18 18"></path>

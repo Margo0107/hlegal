@@ -1,6 +1,6 @@
 // tabs-style
 .tabs {
-    padding: 30px 0;
+  padding: 30px 0;
   @media screen and (min-width: 1024px) {
     padding: 60px 0;
     display: flex;
@@ -30,10 +30,12 @@
   &__link {
     flex-shrink: 0;
     margin-right: 30px;
-    // margin-bottom: 60px;
+    cursor: pointer;
 
     &.active {
-      @include text-grad;
+      color: transparent;
+      background: linear-gradient(90.13deg, #ef8080 0.84%, #f0145a 99.96%);
+      background-clip: text;
     }
   }
   .tabs__content {
@@ -48,6 +50,7 @@
     }
   }
   &__content-text {
+    padding: 0 30px;
     padding-top: 60px;
     max-width: 580px;
 
@@ -59,11 +62,11 @@
       display: none;
     }
   }
-  h2{
+  h2 {
     font-weight: 700;
-    font-size: 30px;
+    font-size: 20px;
   }
-  p{
+  p {
     font-size: 19px;
     line-height: 30px;
   }

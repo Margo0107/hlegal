@@ -54,7 +54,6 @@
     border-radius: 8px;
     padding: 5px 7px;
     display: inline-block;
-
     &.active,
     &:hover {
       background: #f0145a;
@@ -135,9 +134,17 @@
   }
 
   &-close {
+    width: 37px;
+    height: 34px;
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 12px;
+    right: 18px;
+    border-radius: 8px;
+    padding: 3px 4px;
+
+    &:hover {
+      background: #e6e6f0;
+    }
     cursor: pointer;
     @media (min-width: 767px) {
       display: none;
@@ -166,7 +173,237 @@
     }
   }
 }
-.header-address:hover {
+.icon-facebook-Header:hover {
   cursor: pointer;
   color: #f0145a;
+}
+.footer__icon-facebook {
+  width: 38px;
+  height: 38px;
+  color: #ffffff;
+
+  use {
+    fill: currentColor;
+  }
+}
+.header__burger.active {
+  color: #323264;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 2px 2px;
+  display: inline-block;
+  background: #e6e6f0;
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+
+// style_header-second
+.header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 5;
+  &__top-linear {
+    background: #f5f5fa;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (min-width: 767px) {
+      justify-content: flex-start;
+      background: none;
+      padding: 50px 45px 15px;
+    }
+    @media (min-width: 1024px) {
+      justify-content: flex-end;
+    }
+    > li + li {
+      @media (min-width: 767px) {
+        position: relative;
+        padding-left: 20px;
+
+        &::before {
+          content: "";
+          left: 8px;
+          top: 10px;
+          width: 6px;
+          height: 6px;
+          position: absolute;
+          background: #e6e6f0;
+          border-radius: 50%;
+        }
+      }
+    }
+    // a {
+    //   color: inherit;
+    // }
+  }
+
+  &__lang-list {
+    display: flex;
+    font-weight: 700;
+    font-size: 12px;
+  }
+  &__lang-item {
+    margin: 0 5px;
+  }
+  &__lang-uk {
+    color: #b3b3ba;
+    border-radius: 8px;
+    padding: 5px 7px;
+    display: inline-block;
+    &.active,
+    &:hover {
+      color: #fff;
+      background: #f0145a;
+    }
+  }
+  &__phone {
+    color: #b3b3ba;
+    font-size: 16px;
+    font-weight: 700;
+    &:hover {
+      color: #f0145a;
+    }
+  }
+  &__bottom-line {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    margin: 0 -15px;
+    @media (min-width: 767px) {
+      padding: 10px 60px;
+      flex-direction: column;
+    }
+    @media (min-width: 1024px) {
+      padding: 10px 55px;
+      align-items: flex-end;
+    }
+  }
+  &__burger {
+    cursor: pointer;
+    @media (min-width: 767px) {
+      display: none;
+    }
+  }
+  &__logo-second img {
+    margin-bottom: 20px;
+    width: 70px;
+    height: 32px;
+    @media (min-width: 1024px) {
+      position: absolute;
+      left: 40px;
+      top: 50%;
+      transform: translateY(-21%);
+    }
+    @media (min-width: 768px) {
+      margin-bottom: 30px;
+      width: 130px;
+      height: 60px;
+    }
+  }
+}
+.header__menu {
+  @media (max-width: 767px) {
+    text-align: center;
+    position: fixed;
+    transform: translateY(120%);
+    bottom: 0;
+    left: 8px;
+    right: 8px;
+    background: #fff;
+    padding: 54px 12px 12px;
+    border-radius: 12px 12px 0 0;
+    transition: transform 0.2s linear;
+  }
+  &.active {
+    transform: translateY(0);
+  }
+  &-list {
+    text-align: center;
+    @media (min-width: 767px) {
+      display: flex;
+    }
+  }
+  &-item {
+    margin-left: 15px;
+    margin-bottom: 15px;
+    @media (min-width: 767px) {
+      margin: 0 5px;
+    }
+  }
+
+  &-close {
+    width: 37px;
+    height: 34px;
+    position: absolute;
+    top: 12px;
+    right: 18px;
+    border-radius: 8px;
+    padding: 3px 4px;
+
+    &:hover {
+      background: #e6e6f0;
+    }
+    cursor: pointer;
+    @media (min-width: 767px) {
+      display: none;
+    }
+  }
+  &__address {
+    color: #B3B3BA;
+    cursor: pointer;
+    &:hover {
+      color: #f0145a;
+    }
+  }
+  &-linck {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.2px;
+    text-transform: lowercase;
+
+    @media (max-width: 768px) {
+      background: #f5f5fa;
+      color: #24a3ff;
+      display: block;
+      padding: 20px;
+      border-radius: 12px;
+      font-size: 24px;
+    }
+  }
+}
+.icon-facebook-second:hover {
+  cursor: pointer;
+  color: #f0145a;
+}
+.icon-facebook-second {
+  width: 38px;
+  height: 38px;
+  color: #B3B3BA;
+
+  use {
+    fill: currentColor;
+  }
+}
+.header__burger.active {
+  color: #323264;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 2px 2px;
+  display: inline-block;
+  background: #e6e6f0;
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+.header-addres {
+  color: #b3b3ba;
 }

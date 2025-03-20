@@ -57,15 +57,7 @@ h4 {
 .container-menu {
   max-width: 1720px;
   margin: 0 auto;
-  padding: 0 30px;
-  @media screen and (min-width: 767px) {
-    padding: 0 60px;
-  }
-}
-.footer__conteiner {
-  max-width: 1720px;
-  background-color: #f5f5fa;
-  padding: 0 30px;
+  // padding: 0 30px;
   @media screen and (min-width: 767px) {
     padding: 0 60px;
   }
@@ -80,15 +72,6 @@ h4 {
     #643e72 87.46%
   );
   border-radius: 0 0 12px 12px;
-  // &::after {
-  //   content:'';
-  //   display: inline-block;
-  //   color: #CACADB;
-  //   width: 335px;
-  //   height: 10px;
-  //   border-left: 12px;
-  //   border-right: 12px;
-  // }
 }
 .cat__link {
   font-weight: 700;
